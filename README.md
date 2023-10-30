@@ -1,5 +1,5 @@
 
-# Documentation de l'Application React "GnomesTown"
+# Application React "GnomesTown"
 
 L'application "GnomesTown" est une application React qui permet aux utilisateurs de rechercher et d'afficher des informations sur les gnomes de la ville de Brastlewark. Elle se compose de deux principaux composants : `NavBar` et `Search`.
 
@@ -22,6 +22,20 @@ Le composant `Search` est le cœur de l'application, permettant aux utilisateurs
 ### Propriétés
 
 Le composant `Search` ne prend pas de propriétés externes.
+
+### Bibliothèques utilisées : 
+#### React :
+React est une bibliothèque JavaScript  pour le développement d'interfaces utilisateur (UI).
+Dans ce code, elle est utilisée pour créer des composants React et gérer l'interface utilisateur de l'application. React simplifie la création d'interfaces interactives en divisant l'UI en composants réutilisables.
+#### useState :
+useState est un Hook de React qui permet aux composants de gérer l'état local.
+Dans le code, const [datas, setDatas] = useState([]); est utilisé pour créer une variable d'état datas qui stocke les données des gnomes. La fonction setDatas permet de mettre à jour cet état.
+#### useEffect :
+useEffect est un autre Hook de React qui permet de gérer les effets secondaires dans les composants.
+Dans le code, useEffect est utilisé pour effectuer une requête HTTP (fetch) pour récupérer les données des gnomes depuis une source externe (URL). Cette opération se produit après le premier rendu du composant (lorsque le composant est monté).
+#### fetch :
+fetch est une fonction JavaScript native qui est utilisée pour effectuer des requêtes réseau, généralement pour récupérer des données depuis une URL.
+Dans le code, fetch est utilisé pour récupérer les données des gnomes depuis l'URL "https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json". Les données récupérées sont ensuite stockées dans l'état datas à l'aide de setDatas.
 
 ### Fonctionnalités
 
