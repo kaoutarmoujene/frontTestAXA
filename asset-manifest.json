@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/projetFrontAXA/static/css/main.d3a3f681.css",
-    "main.js": "/projetFrontAXA/static/js/main.c0eb745d.js",
-    "static/js/787.725d2f9d.chunk.js": "/projetFrontAXA/static/js/787.725d2f9d.chunk.js",
-    "index.html": "/projetFrontAXA/index.html",
-    "main.d3a3f681.css.map": "/projetFrontAXA/static/css/main.d3a3f681.css.map",
-    "main.c0eb745d.js.map": "/projetFrontAXA/static/js/main.c0eb745d.js.map",
-    "787.725d2f9d.chunk.js.map": "/projetFrontAXA/static/js/787.725d2f9d.chunk.js.map"
+    "main.css": "/testfront/static/css/main.d3a3f681.css",
+    "main.js": "/testfront/static/js/main.54776c35.js",
+    "static/js/787.725d2f9d.chunk.js": "/testfront/static/js/787.725d2f9d.chunk.js",
+    "index.html": "/testfront/index.html",
+    "main.d3a3f681.css.map": "/testfront/static/css/main.d3a3f681.css.map",
+    "main.54776c35.js.map": "/testfront/static/js/main.54776c35.js.map",
+    "787.725d2f9d.chunk.js.map": "/testfront/static/js/787.725d2f9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3a3f681.css",
-    "static/js/main.c0eb745d.js"
+    "static/js/main.54776c35.js"
   ]
 }
